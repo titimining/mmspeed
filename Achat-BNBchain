@@ -47,7 +47,7 @@ const router = new ethers.Contract(
     slippage, // on veut vite des tokens dcp le slippage on s'en *****
     [addresses.WBNB, token],
     addresses.target,
-    Math.floor(Date.now() / 1000) + 60 * 20, // 10 minutes from now
+    Math.floor(Date.now() / 1000) + 60 * 20, // 20 minutes from now
     {
         ...gas,
         value: BNBAmount
