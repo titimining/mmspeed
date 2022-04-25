@@ -61,5 +61,4 @@ const token = prompt('Input token address:');
 
 (async () => {
   await snipe(token);
-})(); 
 })();
